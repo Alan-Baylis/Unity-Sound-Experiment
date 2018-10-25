@@ -84,7 +84,6 @@ public class earRape : MonoBehaviour {
         }
 
 		// Middle Row
-
 		if (Input.GetKeyDown(KeyCode.F)){
             AudioSource.PlayClipAtPoint(flamingo, new Vector3(5, 1, 2));
         }
@@ -110,11 +109,6 @@ public class earRape : MonoBehaviour {
         }
 
 		// Top row
-
-		if (Input.GetKeyDown(KeyCode.E)){
-            AudioSource.PlayClipAtPoint(fortnite, new Vector3(5, 1, 2));
-        }
-
 		if (Input.GetKeyDown(KeyCode.R)){
             AudioSource.PlayClipAtPoint(pumpedupkicks, new Vector3(5, 1, 2));
         }
